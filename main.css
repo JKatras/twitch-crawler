@@ -11,8 +11,6 @@ body {
   list-style:none;
 }
 .toggle-status ul li{
-/*   padding:10px; */
-  
   display:inline-block;
   font-size:1.15em;
   text-transform:uppercase;
@@ -73,7 +71,6 @@ nav ul {
 }
 .result-text {
   display: inline-block;
-/*   font-family: 'Mandali', sans-serif; */
   font-family: 'Inconsolata', sans-serif;
   color:#2b2b2b;
 }
@@ -137,5 +134,10 @@ footer img{
   }
   .channel-logo{
     margin:10px auto;
+  }
+}
+@media screen and (max-width:340px){
+  .toggle-status a {
+    padding: 6px 10px;
   }
 }
