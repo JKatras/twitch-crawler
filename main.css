@@ -29,6 +29,7 @@ body {
 .results-field {
   max-width: 900px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 h1,
@@ -70,9 +71,9 @@ nav ul {
   min-height: 150px;
   max-height: 250px;
   overflow:hidden;
-  -webkit-box-shadow: 0px 2px 2px #9696969;
-  -moz-box-shadow: 0px 2px 2px #9696969;
-  box-shadow: 0px 2px 2px #9696969;
+  -webkit-box-shadow: 0px 2px 2px #969696;
+  -moz-box-shadow: 0px 2px 2px #969696;
+  box-shadow: 0px 2px 2px #969696;
 }
 
 .logo-container {
