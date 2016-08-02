@@ -29,7 +29,7 @@ body {
 .results-field {
   max-width: 900px;
   margin: 0 auto;
-  overflow: hidden;
+  padding-left: 10px;
 }
 
 h1,
@@ -57,10 +57,6 @@ nav ul {
   margin-bottom: 15px;
 }
 
-.results-field {
-  padding-left: 10px;
-}
-
 .result-wrap {
   padding: 0 10px 10px 0;
 }
@@ -71,9 +67,9 @@ nav ul {
   min-height: 150px;
   max-height: 250px;
   overflow:hidden;
-  -webkit-box-shadow: 0px 2px 2px #969696;
-  -moz-box-shadow: 0px 2px 2px #969696;
-  box-shadow: 0px 2px 2px #969696;
+  -webkit-box-shadow: 0px 2px 1px #969696;
+  -moz-box-shadow: 0px 2px 1px #969696;
+  box-shadow: 0px 2px 1px #969696;
 }
 
 .logo-container {
