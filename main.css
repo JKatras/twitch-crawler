@@ -30,6 +30,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding-left: 10px;
+  overflow: hidden;
 }
 
 h1,

@@ -67,3 +67,4 @@ $('#filter-offline').on('click', function() {
     $('.offline').removeClass('hidden');
   }
   $('.missing').addClass('hidden');
+});
